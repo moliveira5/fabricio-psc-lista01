@@ -13,7 +13,7 @@ public class Ex9_AreaCirculo{
         System.out.println("Informe o raio do Circulo em metros: ");
         raioCirculo = input.nextDouble();
 
-        areaCirculo = 2 * Math.PI * raioCirculo;
+        areaCirculo = Math.PI * Math.pow(raioCirculo, 2);
 
         System.out.printf("A area do circulo eh: %.2f metros", areaCirculo);
 
