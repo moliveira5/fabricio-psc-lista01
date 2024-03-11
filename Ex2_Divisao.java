@@ -17,8 +17,8 @@ public class Ex2_Divisao{
         System.out.println("Informe o segundo numero: ");
         n2 = input.nextInt();
 
-        resultado = n1 / n2;
-        System.out.println("A divisao ente os numeros eh: " + resultado);
+        resultado = n1 % n2;
+        System.out.println("O resto da divisao ente os numeros eh: " + resultado);
 
         input.close();
     }
